@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+Làm việc từ ngoài vào trong
+rồi tới làm từ trên xuống dưới
+Từ tổng quan đến chi tiết
+vị trí
+kích thước(width, height)
+*/
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#main{
+
+}
+.text-white{
+    color: #fff !important;
+}
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+}
+#nav
+{
+    display: inline-block;
+
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav .subnav{
+    /*display: none;*/
+    position: absolute;
+    box-shadow: 0 0 10px rgb(172, 165, 165) ;
+    display: none;
+   
+
+}
+#nav .subnav li{
+    width: 100%;
+}
+
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+    line-height: 38px;
+}
+#nav li a
+{
+    color: blanchedalmond;
+    text-decoration: none;
+    line-height: 46px;
+    padding:  0px 24px ;  
+    display: block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color: black;
+    background-color: #ccc;
+}
+#nav li:hover a{
+    color: #fff;
+    background-color: rgb(163, 204, 17);
+    display: block;
+}
+#header .search-btn{
+    float: right;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+#header .search-btn:hover{
+    background-color: brown;
+
+} 
+#header .search-icon{
+    color: blanchedalmond;
+    font-size: 20px;
+    line-height: 45.99px;
+}
+
+#slider{
+   
+    padding-top: 50%;
+    background : url('../img/slider1.jpg') no-repeat ;
+    margin-top:45.99px ;
+
+}
+#slider .text-content{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.993);
+    bottom: 49px;
+    right: 50%;
+    
+
+}
+#slider .text-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+#slider .text-description{
+    font-size: 25px;
+}
+#content{
+
+}
+#content .content-section{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 64px 0;
+}
+#content .content-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    font-style: italic;
+    opacity: 0.7;
+    
+}
+#content .about-text{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.4;
+}
+#content .members-list{
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+#content .member-item{
+    float: left;
+    width: 33.33333%;
+}
+#content .member-name{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 5px;
+    
+}
+.tour-section{
+    background-color: black;
+
+}
+.tour-ticker{
+    background-color: white;
+    margin-top: 40px;
+    list-style: none;
+}
+.tour-ticker li{
+    font-size: 15px;
+    padding: 11px 16px; 
+    border-bottom: 1px solid saddlebrown;
+}
+.tour-ticker .ticker{
+    background-color: sienna;
+    color: #fff;
+    padding: 3px 5px;
+    margin-left: 15px;
+}
+.tour-ticker .quantity{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    float: right;
+    width: 24px;
+    height: 24px;
+    text-align:center ;
+    line-height: 24px;
+}
+/* location */
+.place-list{
+    overflow: hidden;
+    margin: 32px -8px 0 ;
+}
+.place-item{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.5;
+}
+.place-body{
+    background-color: rgb(241, 240, 236);
+}
+.place-heading{
+    font-weight: inherit;
+    text-align: center;
+
+
+}
+.place-time{
+
+}
+.place-buy-btn{
+    /* background-color: ; */
+}
+
+#footer{
+
+}
