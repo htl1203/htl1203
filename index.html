@@ -1,21 +1,22 @@
-    <!DOCTYPE html>
-    <html lang="en">
+ <!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>THE BAND</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+        <link rel="icon" type="image/x-icon" href="./img/ff.png">
     </head>
     <body>
         <div id="main">
             <div id="header">
                 <ul id="nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Band</a></li>
-                    <li><a href="">Tour</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#band">Band</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li>
                         <a href="#">
                             More
@@ -23,98 +24,185 @@
 
                         </a>
                         <ul class="subnav">
-                            <li><a href="">Merchandise</a></li>
-                            <li><a href="">Media</a></li>
-                            <li><a href="">Extrass</a></li>
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Extrass</a></li>
                         </ul>
                     </li>
                 </ul>
                 <div class="search-btn">
-                    <i class= "search-icon ti-search">
+                    <i class="search-icon ti-search">
                     </i>
                 </div>
             </div>
+            <!-- Phần slider -->
             <div id="slider">
                 <div class="text-content">
                     <h2 class="text-heading">New York</h2>
-                    <div class="text-description">Làm người yêu anh nhé</div>
+                    <div class="text-description">Nơi tình yêu bắt đầu</div>
                 </div>
             </div>
             <div id="content">
-                <div class="content-section">
+                <div id="band" class="content-section">
                     <h2 class="content-heading">THE BAND</h2>
                     <p class="section-sub-heading"> We love music</p>
                     <p class="about-text">
-                        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        We have created a fictional band website. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                     </p>
-                    <div class="members-list">
-                        <div class="member-item">
+                    <div class="row members-list">
+                        <div class="col col-third member-item">
                             <p class="member-name">Name</p>
-                            <img src="./img/sehun.jpg" alt="Name" class="member-img">
+                            <img src="./img/sehun.jpg" alt="Name"
+                                class="member-img">
                         </div>
-                        <div class="member-item">
+                        <div class="col col-third member-item">
                             <p class="member-name">Name</p>
-                            <img src="./img/sehun.jpg" alt="Name" class="member-img">
+                            <img src="./img/sehun.jpg" alt="Name"
+                                class="member-img">
                         </div>
-                        <div class="member-item">
+                        <div class="col col-third member-item">
                             <p class="member-name">Name</p>
-                            <img src="./img/sehun.jpg" alt="Name" class="member-img">
+                            <img src="./img/sehun.jpg" alt="Name"
+                                class="member-img">
                         </div>
                     </div>
-                   
-                </div>
-                    <!--tour section-->
-                    <div class="tour-section">
-                        <div class="content-section">
-                            <h2 class="content-heading text-white">TOUR DATES</h2>
-                            <p class="section-sub-heading text-white">Remember to book </p>
-                            <ul class="tour-ticker">
-                                <li>September <span class="ticker">Sold out</span></li>
-                                <li>October <span class="ticker">Sold out</span></li>
-                                <li>November <span class="quantity">3</span></li>
-                            </ul>
-                            <!-- location -->
-                            <div class="place-list">
-                                <div class="place-item">
-                                 <img src="./img/chan.jpg" alt="Newyork" class="place-img">
-                                 <div class="place-body">
-                                    <h3 class="place-heading">NEW YORK</h3>
-                                    <p class="place-time">Ngày 12 tháng 3 năm 2022</p>
-                                    <p class="place-desc">Không được ngắm cả chú rể, tức ghê. 
-                                        Nhưng cô dâu muốn vậy thì mình là khán giả đành phải tôn trọng và chấp nhận sự riêng tư của bạn ấy thôi</p>
-                                    <button href="" class="place-buy-btn">MUA VÉ</button>
-                                 </div>
 
-                                </div>
-                                <div class="place-item">
-                                    <img src="./img/chan.jpg" alt="Newyork" class="place-img">
-                                 <div class="place-body">
+                </div>
+                <!--tour section-->
+                <div id="tour" class="tour-section">
+                    <div class="content-section">
+                        <h2 class="content-heading text-white">TOUR DATES</h2>
+                        <p class="section-sub-heading text-white">Remember to
+                            book </p>
+                        <ul class="tour-ticker">
+                            <li>September <span class="ticker">Sold out</span></li>
+                            <li>October <span class="ticker">Sold out</span></li>
+                            <li>November <span class="quantity">3</span></li>
+                        </ul>
+                        <!-- location -->
+                        <div class="row place-list">
+                            <div class="col col-third">
+                                <img src="./img/chan.jpg" alt="Newyork"
+                                    class="place-img">
+                                <div class="place-body">
                                     <h3 class="place-heading">NEW YORK</h3>
-                                    <p class="place-time">Ngày 12 tháng 3 năm 2022</p>
-                                    <p class="place-desc ">Không được ngắm cả chú rể, tức ghê. Nhưng cô dâu muốn vậy thì mình là khán giả đành phải tôn trọng và chấp nhận sự riêng tư của bạn ấy thôi</p>
-                                    <button href="" class="place-buy-btn">MUA VÉ</button>
-                                 </div>
+                                    <p class="place-time">Ngày 12 tháng 3 năm
+                                        2022</p>
+                                    <p class="place-desc">Không được ngắm cả chú
+                                        rể, tức ghê.
+                                        Nhưng cô dâu muốn vậy thì mình là khán
+                                        giả đành phải tôn trọng và chấp nhận sự
+                                        riêng tư của bạn ấy thôi</p>
+                                    <button class="js-buy-ticket">BUY TICKETS</button>
                                 </div>
-                                <div class="place-item">
-                                    <img src="./img/chan.jpg" alt="Newyork" class="place-img">
-                                 <div class="place-body">
+
+                            </div>
+                            <div class="col col-third">
+                                <img src="./img/chan.jpg" alt="Newyork"
+                                    class="place-img">
+                                <div class="place-body">
                                     <h3 class="place-heading">NEW YORK</h3>
-                                    <p class="place-time">Ngày 12 tháng 3 năm 2022</p>
-                                    <p class="place-desc">Không được ngắm cả chú rể, tức ghê. Nhưng cô dâu muốn vậy thì mình là khán giả đành phải tôn trọng và chấp nhận sự riêng tư của bạn ấy thôi</p>
-                                    <button href="" class="place-buy-btn">MUA VÉ</button>
-                                 </div>
+                                    <p class="place-time">Ngày 12 tháng 3 năm
+                                        2022</p>
+                                    <p class="place-desc">Không được ngắm cả chú
+                                        rể, tức ghê. Nhưng cô dâu muốn vậy thì
+                                        mình là khán giả đành phải tôn trọng và
+                                        chấp nhận sự riêng tư của bạn ấy thôi</p>
+                                    <button class="js-buy-ticket">BUY TICKETS</button>
                                 </div>
-                                <div class="clear"></div>
+                            </div>
+                            <div class="col col-third">
+                                <img src="./img/chan.jpg" alt="Newyork"
+                                    class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">NEW YORK</h3>
+                                    <p class="place-time">Ngày 12 tháng 3 năm
+                                        2022</p>
+                                    <p class="place-desc">Không được ngắm cả chú
+                                        rể, tức ghê. Nhưng cô dâu muốn vậy thì
+                                        mình là khán giả đành phải tôn trọng và
+                                        chấp nhận sự riêng tư của bạn ấy thôi</p>
+                                    <button class="js-buy-ticket">BUY TICKETS</button>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- begin:contact-section -->
+                <div id="contact"class="contact-section">
+                    <div class="content-section">
+                        <h2 class="content-heading">CONTACT</h2>
+                        <p class="section-sub-heading"> Fan ? Drop a note!</p>
+                        <div class="row contact-content">
+                            <div class="col col-half contact-info">
+                                <p><i class="ti-location-pin icon"></i>Chicago,USA</p>
+                                <p><i class="ti-headphone icon"></i>0327480417</p>
+                                <p><i class="ti-email icon "></i>tlinh6005@gmail.com</p>
+                            </div>
+                            <div class="col col-half contact-form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col col-half">
+                                            <input type="text"
+                                                placeholder="Name" name="" id=""
+                                                required class="form-control">
+                                        </div>
+                                        <div class="col col-half">
+                                            <input type="text"
+                                                placeholder="Email" name=""
+                                                id="" required
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row mt-8">
+                                        <div class="col col-full">
+                                            <input type="text" id="" name="Mess"
+                                                placeholder="Message"
+                                                class="form-control">
+                                        </div>
+                                    </div>
+                                    <input type="submit" value="SEND"
+                                        class="form-submit
+                                        mt-16">
+                                </form>
                             </div>
                         </div>
                     </div>
-            </div>
-            <div id="footer">
+                </div>
+                <!-- end: contact-section -->
+                <div class="map-section">
+                    <img src="./img/map.jpg" alt="Maps" class="">
+                </div>
 
             </div>
-            <div class="modal">
+            <div id="footer">
+                <div class="social">
+                    <a href=""><i class="ti-facebook"></i></a>
+                    <a href=""><i class="ti-instagram"></i></a>
+                    <a href=""><i class="ti-youtube"></i></a>
+                    <a href=""><i class="ti-twitter"></i></a>
+                    <a href=""><i class="ti-pinterest"></i></a>
+                    <a href=""><i class="ti-linkedin"></i></a>
+                </div>
+                <p class="copyright">Anh yêu nhiều em lắm</p>
+            </div>
+            <div class="modal js-modal">
                 <div class="modal-container">
-                    <div class="modal-close">
+                    <div class="modal-close js-modal-close">
                         <i class="ti-close"></i>
                     </div>
                     <header class="modal-header">
@@ -125,12 +213,14 @@
                             <i class="ti-shopping-car"> </i>
                             Tickets, $15 per person
                         </label>
-                        <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+                        <input id="ticket-quantity" type="text"
+                            class="modal-input" placeholder="How many?">
                         <label for="name" class="modal-label">
                             <i class="ti-user"> </i>
                             Send to
                         </label>
-                        <input  id="name" type="text" class="modal-input" placeholder="Enter Email...">
+                        <input id="name" type="text" class="modal-input"
+                            placeholder="Enter Email...">
                         <button id="buy-tickets">
                             PAY
                         </button>
@@ -140,6 +230,35 @@
                     </footer>
                 </div>
             </div>
-    
-    </body>
+
+        </body>
     </html>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector(' .js-modal')
+        const modalContainer = document.querySelector('.modal-container')
+        const modalClose =document.querySelector(' .js-modal-close')
+        //Hàm hiển thị form modal mua vé
+        function showBuyTickets()
+        {
+            modal.classList.add('open')
+        }
+        //hàm ẩn gỡ bỏ class open
+        function hideBuyTickets()
+        {
+            modal.classList.remove('open')
+        }
+        
+        //lặp qua từng thẻ button
+        for (const buyBtn of buyBtns)
+        {
+            buyBtn.addEventListener('click', showBuyTickets )
+        }
+        //nghe hành vi click vào button close
+        modalClose.addEventListener('click', hideBuyTickets )
+        modal.addEventListener('click', hideBuyTickets)
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
+
+    </script>
